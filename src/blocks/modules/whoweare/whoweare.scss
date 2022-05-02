@@ -16,7 +16,8 @@
 	&__video {
 		position: relative;
 		padding-top: calc(315 / 560 * 100%);
-		iframe {
+
+		video {
 			position: absolute;
 			left: 0;
 			top: 0;

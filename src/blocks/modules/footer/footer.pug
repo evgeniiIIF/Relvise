@@ -4,7 +4,7 @@ footer.footer
 			.footer-top__row
 				.footer-top__column
 					.footer-top__item.item-ft
-						h5.item-ft__title Company Info NEW
+						h5.item-ft__title Company Info
 						nav.item-ft__nav
 							ul.item-ft__list
 								li.item-ft__li
@@ -60,8 +60,25 @@ footer.footer
 						nav.item-ft__nav
 							ul.item-ft__list
 								li.item-ft__li
-									a.item-ft__link.item-ft__link--phone(href="#") (480) 555-0103
+									a.item-ft__link.item-ft__contact.item-ft__link--phone(href="tel:4805550103") (480) 555-0103
 								li.item-ft__li
-									a.item-ft__link.item-ft__link--map(href="#") 4517 Washington Ave...
+									a.item-ft__link.item-ft__contact.item-ft__link--map(href="#") 4517 Washington Ave...
 								li.item-ft__li
-									a.item-ft__link.item-ft__link--email(href="#") debra.holt@example.com
+									a.item-ft__link.item-ft__contact.item-ft__link--email(href="mailto:debra.holt@example.com") debra.holt@example.com
+	section.footer-bottom
+		.container
+			.footer-bottom__row
+				.footer-bottom__copy Made With Love By Figmaland All Right Reserved 
+				ul.footer-social 
+					li.footer-social__item
+						a.footer-social__link
+							img(src=require("./footer-bottom/Vectorfbs.svg"), alt="facebook")
+					li.footer-social__item
+						a.footer-social__link
+							img(src=require("./footer-bottom/Vectorfbs-1.svg"), alt="insta")
+					li.footer-social__item
+						a.footer-social__link
+							img(src=require("./footer-bottom/Vectorfbs-2.svg"), alt="twit")
+					li.footer-social__item
+						a.footer-social__link
+							img(src=require("./footer-bottom/Vectorfbs-3.svg"), alt="youtube")

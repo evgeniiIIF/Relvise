@@ -267,6 +267,13 @@ module.exports = {
 				},
 			},
 			{
+				test: /\.(mp4)$/i,
+				type: "asset/resource",
+				generator: {
+					filename: `${PATHS.assets}/video/[name].[hash][ext][query]`,
+				},
+			},
+			{
 				test: /\.(woff|woff2|eot|ttf|otf|svg)$/i,
 				exclude: [/modules/],
 				type: "asset/resource",
